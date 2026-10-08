@@ -18,20 +18,31 @@ This analysis explores:
 - Investment strategies by fund activity
 - Employee education at startups that closed after one funding round
 
+## Data Source
+
+The analysis uses the startup database provided as part of the TripleTen Business Analytics program. The database contains information about companies, funding rounds, acquisitions, investors, people, and employee education.
+
 ## SQL Skills Demonstrated
 
-- SELECT and filtering
-- WHERE conditions
+- SELECT statements
+- WHERE filtering
 - LIKE pattern matching
-- ORDER BY
+- ORDER BY sorting
 - Aggregate functions: COUNT, SUM, AVG, MIN, MAX
 - GROUP BY
 - HAVING
 - CASE statements
-- Subqueries
 - INNER JOIN
+- Subqueries
+- Nested queries
 - Data aggregation
 - Business-focused SQL analysis
+
+## Analysis Approach
+
+The project uses SQL to investigate startup performance, investment activity, funding patterns, acquisitions, and employee characteristics.
+
+Each query is designed around a specific business question and produces information that can be used to identify trends and support data-driven decision-making.
 
 ## Project Structure
 
