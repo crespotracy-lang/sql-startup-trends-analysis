@@ -1,31 +1,71 @@
-## Analysis Results
+# SQL Startup Trends Analysis
 
-### Cash Acquisitions
+## Project Overview
 
-Total cash-based acquisitions between 2011 and 2013 were approximately **$137.76 billion**.
+This project analyzes startup companies, funding activity, acquisitions, investors, and employee education using SQL. The analysis was completed as part of the TripleTen Business Analytics program and focuses on answering business questions that can support venture capital and investment decisions.
 
-![Cash Acquisitions](<results/Cash Acquisitions.png>)
+## Business Questions
 
-### Geographic Investment
+This analysis explores:
 
-The United States ranked highest in total startup funding in the analysis, followed by the United Kingdom and other global markets.
+- Startup closure and survival patterns
+- Funding raised by U.S. news companies
+- Cash-based acquisitions from 2011–2013
+- Industry influencers and social media presence
+- Global startup funding by country
+- Funding round volatility
+- Venture fund activity levels
+- Investment strategies by fund activity
+- Employee education at startups that closed after one funding round
 
-![Geographic Investment](<results/Geographic Investment.png>)
+## Data Source
 
-### Funding Round Volatility
+The analysis uses the startup database provided as part of the TripleTen Business Analytics program. The database contains information about companies, funding rounds, acquisitions, investors, people, and employee education.
 
-The analysis compares the highest and lowest funding amounts across funding dates to identify variation in funding rounds.
+## SQL Skills Demonstrated
 
-![Funding Round Volatility](<results/Funding Round Volatility.png>)
+- SELECT statements
+- WHERE filtering
+- LIKE pattern matching
+- ORDER BY sorting
+- Aggregate functions: COUNT, SUM, AVG, MIN, MAX
+- GROUP BY
+- HAVING
+- CASE statements
+- INNER JOIN
+- Subqueries
+- Nested queries
+- Data aggregation
+- Business-focused SQL analysis
 
-### Investment Strategy
+## Analysis Approach
 
-Funds classified as high activity averaged **252 investment rounds**, compared with **51** for middle-activity funds and **2** for low-activity funds.
+The project uses SQL to investigate startup performance, investment activity, funding patterns, acquisitions, and employee characteristics.
 
-![Investment Strategy](<results/Investment Strategy.png>)
+Each query is designed around a specific business question and produces information that can be used to identify trends and support data-driven decision-making.
 
-### Employee Education Impact
+## Project Structure
 
-Employees at the analyzed startups averaged approximately **1.23 degree types per employee**.
-
-![Employee Education Impact](<results/Employee Education Impact.png>)
+```text
+sql-startup-trends-analysis/
+│
+├── sql/
+│   ├── 01_startup_landscape.sql
+│   ├── 02_sector_analysis.sql
+│   ├── 03_cash_acquisitions.sql
+│   ├── 04_industry_influencers.sql
+│   ├── 05_finance_influencers.sql
+│   ├── 06_geographic_investment.sql
+│   ├── 07_funding_round_volatility.sql
+│   ├── 08_fund_activity_classification.sql
+│   ├── 09_investment_strategy.sql
+│   └── 10_employee_education_impact.sql
+│
+├── results/
+│   ├── Cash Acquisitions.png
+│   ├── Geographic Investment.png
+│   ├── Funding Round Volatility.png
+│   ├── Investment Strategy.png
+│   └── Employee Education Impact.png
+│
+└── README.md
